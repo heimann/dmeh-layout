@@ -1,5 +1,5 @@
 body {
-  font-family: "Heebo", system-ui, sans-serif;
+  font-family: "Lora", system-ui, sans-serif;
 }
 
 .navigation {
@@ -7,7 +7,8 @@ body {
   -moz-box-align: center;
   align-items: center;
   width: 100%;
-  margin: 40px 20px 0;
+  margin: 20px 0;
+  font-family: "Montserrat";
 
 }
 
@@ -21,8 +22,7 @@ body {
   color: #333;
   text-decoration: none;
   text-align: left;
-  font-weight: 200;
-  font-family: "Abril Fatface";
+  font-weight: 800;
 }
 
 .nav-links {
@@ -31,5 +31,9 @@ body {
 
 .nav-link {
   text-decoration: none;
+}
+
+.content {
+  margin: 0 20px;
 }
 
