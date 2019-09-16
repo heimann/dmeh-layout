@@ -1,3 +1,12 @@
-<Header>
-  <h1>david heimann</h1>
+<Header class="navigation">
+  <a class="nav-header nav-item" href="{{ .Site.BaseURL }}">
+    david heimann
+  </a>
+  <ul class="nav-links nav-item">
+    {{ range .Site.Menus.main }}
+      <li>
+        <a href="{{ .URL }}" class="nav-link">{{ .Name }}</a>
+      </li>
+    {{ end }}
+  </ul>
 </Header>
