@@ -7,9 +7,9 @@ body {
   -moz-box-align: center;
   align-items: center;
   width: 100%;
-  margin: 20px 12px;
   font-family: "Montserrat";
-
+  padding: 20px 12px;
+  box-sizing: border-box;
 }
 
 .nav-item {
@@ -34,6 +34,7 @@ body {
 }
 
 .content-main {
-  margin: 0 12px;
+  box-sizing: border-box;
+  padding: 0px 16px;
 }
 
