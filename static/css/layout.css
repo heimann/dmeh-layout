@@ -7,7 +7,7 @@ body {
   -moz-box-align: center;
   align-items: center;
   width: 100%;
-  margin: 20px 0;
+  margin: 20px 12px;
   font-family: "Montserrat";
 
 }
@@ -33,7 +33,7 @@ body {
   text-decoration: none;
 }
 
-.content {
-  margin: 0 20px;
+.content-main {
+  margin: 0 12px;
 }
 
