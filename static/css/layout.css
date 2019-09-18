@@ -1,5 +1,5 @@
 body {
-  font-family: "Lora", system-ui, sans-serif;
+  font-family: "Cantarell", system-ui, sans-serif;
 }
 
 .navigation {
@@ -7,7 +7,7 @@ body {
   -moz-box-align: center;
   align-items: center;
   width: 100%;
-  font-family: "Montserrat";
+  font-family: "Nunito Sans";
   padding: 12px 12px 0;
   box-sizing: border-box;
 }
@@ -21,7 +21,7 @@ body {
   color: #333;
   text-decoration: none;
   text-align: left;
-  font-weight: 800;
+  font-weight: 900;
   margin-top: 4px;
 
 }
