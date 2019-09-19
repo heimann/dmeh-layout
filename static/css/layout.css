@@ -1,5 +1,18 @@
 body {
   font-family: "Cantarell", system-ui, sans-serif;
+  background: #eaeaea;
+}
+
+a {
+  color: #507dbc;
+}
+
+a:hover {
+  color: #1b4965;
+}
+
+a:visited {
+  color: #507dbc;
 }
 
 .navigation {
@@ -18,7 +31,7 @@ body {
 
 .nav-header {
   font-size: 1.4em;
-  color: #333;
+  color: #0b2027 !important;
   text-decoration: none;
   text-align: left;
   font-weight: 900;
