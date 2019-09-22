@@ -4,6 +4,10 @@ body {
   margin: 0 auto;
 }
 
+h1, h2, h3, h4, h5 {
+  font-family: "Nunito Sans";
+}
+
 a {
   color: #507dbc;
 }
@@ -57,3 +61,12 @@ a:hover {
   padding: 0px 16px;
 }
 
+/*Page Layouts*/
+
+.super-header {
+  margin-bottom: 0;
+}
+
+.sub-header {
+  margin-top: 0;
+}
