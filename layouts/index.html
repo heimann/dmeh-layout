@@ -1,3 +1,19 @@
 {{ define "main" }}
-  <h1>What's up</h1> 
+<main aria-role="main">
+  <header class="homepage-header">
+    <h1>{{.Title}}</h1>
+    {{ with .Params.subtitle }}
+    <span class="subtitle">{{.}}</span>
+    {{ end }}
+  </header>
+  <div class="homepage-content">
+    {{.Content}}
+  </div>
+  <div>
+    <!-- Note that .Pages is the same as .Site.RegularPages on the homepage template. -->
+    {{ range first 10 .Pages }}
+    {{ .Render "summary"}}
+    {{ end }}
+  </div>
+</main>
 {{ end }}
