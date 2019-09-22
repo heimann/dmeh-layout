@@ -7,12 +7,9 @@ a {
 }
 
 a:hover {
-  color: #1b4965;
+  color: #86bbd8;
 }
 
-a:visited {
-  color: #507dbc;
-}
 
 .navigation {
   display: flex;
