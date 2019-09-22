@@ -1,5 +1,7 @@
 body {
   font-family: "Cantarell", system-ui, sans-serif;
+  min-height: 100vh;
+  margin: 0 auto;
 }
 
 a {
@@ -12,6 +14,9 @@ a:hover {
 
 
 .navigation {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
   display: flex;
   -moz-box-align: center;
   align-items: center;
@@ -46,6 +51,8 @@ a:hover {
 }
 
 .content-main {
+  max-width: 768px;
+  margin: 0 auto;
   box-sizing: border-box;
   padding: 0px 16px;
 }
